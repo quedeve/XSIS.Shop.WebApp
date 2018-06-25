@@ -1,0 +1,51 @@
+﻿@model IEnumerable<XSIS.Shop.ViewModels.OrderItemViewModel>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnitPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            Rp. @Html.DisplayFor(modelItem => item.TotalAmount)
+        </td>
+        <td>
+            <button class="btn btn-danger btn-hapus" id="@item.ProductId">Remove</button>
+        </td>
+    </tr>
+}
+
+    <script type="text/javascript">
+    $(document).ready(function () {
+        var sum = 0;
+
+        $('.amount').each(function () {
+            var price = $(this);
+            sum += parseInt(price.val());
+        });
+
+        $("#TotalAmount").val(sum);
+
+        $(".btn-hapus").click(function () {
+            var Id = $(this).attr("id");
+            $.ajax({
+                type:'get',
+                url:'@Url.Action("RemoveItemFromCurrentOrder", "Orders")',
+                data: { ProductId: Id },
+                dataType: 'html',
+                success: function (data) {
+                    $("#tbody").html(data);
+                }
+            })
+
+            return false;
+        });
+    });
+
+    </script>

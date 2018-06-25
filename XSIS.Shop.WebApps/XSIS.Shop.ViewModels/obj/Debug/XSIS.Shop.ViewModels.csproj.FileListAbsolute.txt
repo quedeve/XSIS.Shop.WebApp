@@ -1,0 +1,6 @@
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.ViewModels\bin\Debug\XSIS.Shop.ViewModels.dll
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.ViewModels\bin\Debug\XSIS.Shop.ViewModels.pdb
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.ViewModels\obj\Debug\XSIS.Shop.ViewModels.csprojAssemblyReference.cache
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.ViewModels\obj\Debug\XSIS.Shop.ViewModels.csproj.CoreCompileInputs.cache
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.ViewModels\obj\Debug\XSIS.Shop.ViewModels.dll
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.ViewModels\obj\Debug\XSIS.Shop.ViewModels.pdb

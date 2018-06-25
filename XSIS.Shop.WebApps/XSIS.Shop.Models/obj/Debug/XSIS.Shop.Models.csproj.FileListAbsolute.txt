@@ -1,0 +1,12 @@
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.Models\bin\Debug\XSIS.Shop.Models.dll.config
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.Models\bin\Debug\XSIS.Shop.Models.dll
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.Models\bin\Debug\XSIS.Shop.Models.pdb
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.Models\bin\Debug\EntityFramework.dll
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.Models\bin\Debug\EntityFramework.xml
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.Models\obj\Debug\XSIS.Shop.Models.csprojAssemblyReference.cache
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.Models\obj\Debug\XSIS.Shop.Models.csproj.CoreCompileInputs.cache
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.Models\obj\Debug\XSIS.Shop.Models.csproj.CopyComplete
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.Models\obj\Debug\XSIS.Shop.Models.dll
+D:\Bootcamp_XSIS\XSIS.Shop.WebApps\XSIS.Shop.Models\obj\Debug\XSIS.Shop.Models.pdb

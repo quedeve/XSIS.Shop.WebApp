@@ -1,0 +1,71 @@
+﻿@model IEnumerable<XSIS.Shop.ViewModels.ProductViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Index Products</h2>
+<div class="card">
+    <div class="card-header">
+        <h2>
+            <a href="@Url.Action("Create","Products")" class="btn bgm-lightblue">Create</a>
+        </h2>
+       
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ProductName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.UnitPrice)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Package)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.IsDiscontinued)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CompanyName)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProductName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UnitPrice)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Package)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IsDiscontinued)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CompanyName)
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Edit", "Products", new { id = item.Id })" class=" btn btn-info"><i class="zmdi zmdi-edit"></i></a>
+                            <a href="@Url.Action("Details", "Products", new { id = item.Id })" class=" btn btn-success"><i class="zmdi zmdi-file-text"></i></a>
+                            <a href="@Url.Action("Delete", "Products", new { id = item.Id })" class=" btn btn-danger"><i class="zmdi zmdi-delete"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+
